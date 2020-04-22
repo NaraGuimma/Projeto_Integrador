@@ -33,6 +33,4 @@ com as devidas variáveis de ambiente e por fim publicando no ambiente de destin
 
 Resultados Esperados:
 
-Com os aplicativos NodeJS no ar as alunas devem observar a url /healthcheck de cada um deles para ver se foram ou não configurados com sucesso
-Deverão testar a ação de upload de imagens da aplicação que foi fornecida e se estiver com os tokens corretos do S3 fará o upload com sucesso
-
+Com os aplicativos NodeJS no ar as alunas devem observar a url /healthcheck de cada um dos ambientes (homolog e prod) para testar se foram ou não carregadas as imagens com sucesso na S3.
