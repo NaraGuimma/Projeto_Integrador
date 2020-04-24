@@ -37,12 +37,15 @@
         - botocore
         - ansible
         - awscli
+        
   - name: Download required roles docker (desktop local)
       local_action: command ansible-galaxy install nickjj.docker -f -vvv
       become: false
+      
     - name: Download required roles java
       local_action: command ansible-galaxy install geerlingguy.java -f
       become: false
+      
     - name: Download required roles jenkins
       local_action: command ansible-galaxy install geerlingguy.jenkins -f
       become: false
